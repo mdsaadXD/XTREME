@@ -1,0 +1,69 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+.header
+{
+	background: rgba(0,0,100,0.2);
+	height: 100vh;
+}
+.video-background
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+.logo
+{
+	margin: 25px;
+	height: 46px;
+}
+.welcome-msg
+{
+	position: relative;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	top: 150px;
+}
+.welcome-msg h1
+{
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.btn
+{
+	font-size: 18px;
+	color: #fff;
+	margin: 5px;
+	padding: 7px 22px;
+	text-decoration: none;
+	border: 1px solid coral;
+	border-radius: 25px;
+}
+.btn-checkout:hover
+{
+	background: coral;
+	transition: .5s;
+}
+.btn-subscribe:hover
+{
+	background: coral;
+	transition: .5s;
+}
+
+@media (max-aspect-ratio:16/9)
+{
+	.video-background
+	{
+		width: auto;
+		height: 100%;
+	}
+}
